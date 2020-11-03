@@ -23,13 +23,21 @@
   <label class="btn btn-info">
     <input type="submit" name="options" id="option1" checked> Mostrar Solo Clientes Individuales
   </label>
+            
+            
+            
   <label class="btn btn-info">
     <input type="submit" name="options" id="option2"> Mostrar Solo Clientes Empresas
   </label>
+            
+            
+            
   <label class="btn btn-info">
     <input type="submit" name="options" id="option3"> Mostrar Ambos Clientes
   </label>
 </div>
+        
+        
         
 
         

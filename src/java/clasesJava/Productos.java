@@ -30,6 +30,8 @@ public class Productos {
         this.nameProduc = nameProduc;
     }
 
+    
+
     public String getCodigo() {
         return codigo;
     }
@@ -45,6 +47,15 @@ public class Productos {
     public void setPrecio(int precio) {
         this.precio = precio;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+    
     
     
 }

@@ -5,10 +5,7 @@
  */
 package clasesJava;
 
-/**
- *
- * @author User
- */
+
 public class Ordenes {
     private int id;
     Clientes clientes;
@@ -16,8 +13,7 @@ public class Ordenes {
     private String fechaEnvio;
     private double total;
 
-    public Ordenes(int id, Clientes clientes, int numOrden, String fechaEnvio, double total) {
-        this.id = id; 
+    public Ordenes(Clientes clientes, int numOrden, String fechaEnvio, double total) {
         clientes.getNombre();
         this.numOrden = numOrden;
         this.fechaEnvio = fechaEnvio;

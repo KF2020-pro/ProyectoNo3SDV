@@ -16,15 +16,15 @@ public class dataSistema {
     
     //metodo donde  agregar a la lista Clientes.
     public void agregandoClientes (){
-        clientes.add(new Clientes (1,"Maria Sagastume","30520816980101","24647891"));
-        clientes.add(new Clientes (2,"Sergio Dominguez","29510811230101","51248965"));
-        clientes.add(new Clientes (3,"Cristina Diaz","31220815980101","44897152"));
-        clientes.add(new Clientes (4,"Kendall Mendez","3051254530101","34215687"));
+        clientes.add(new Clientes ("Maria Sagastume","30520816980101","24647891"));
+        clientes.add(new Clientes ("Sergio Dominguez","29510811230101","51248965"));
+        clientes.add(new Clientes ("Cristina Diaz","31220815980101","44897152"));
+        clientes.add(new Clientes ("Kendall Mendez","3051254530101","34215687"));
         
-        clientes.add(new Clientes (5,"Grupo Signus","24005615","Pradera Z.10 oficina 5845",25));
-        clientes.add(new Clientes (6,"Multiservicios Lumiere","23650000","Carretera a El Salvador Km. 57",50));
-        clientes.add(new Clientes (7,"Automotriz Caribe","28956122","Clz. Roosevelt 5ave. calle 18-24",30));
-        clientes.add(new Clientes (8,"Repuestos Acquaroni","24598716","Central Park Z.1 6ave. 15-4 calle",35));
+        clientes.add(new Clientes (1,"Grupo Signus","24005615","Pradera Z.10 oficina 5845",25));
+        clientes.add(new Clientes (2,"Multiservicios Lumiere","23650000","Carretera a El Salvador Km. 57",50));
+        clientes.add(new Clientes (3,"Automotriz Caribe","28956122","Clz. Roosevelt 5ave. calle 18-24",30));
+        clientes.add(new Clientes (4,"Repuestos Acquaroni","24598716","Central Park Z.1 6ave. 15-4 calle",35));
     }
     
     //en este se agregara a la lista Productos

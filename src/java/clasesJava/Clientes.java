@@ -13,8 +13,7 @@ public class Clientes {
     private String direccion;
     private String telefono;
 
-    public Clientes(int id, String nombre, String direccion, String telefono) {
-        this.id = id; 
+    public Clientes(String nombre, String direccion, String telefono) { 
         this.nombre = nombre;
         this.direccion = direccion;
         this.telefono = telefono;
